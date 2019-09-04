@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1621BEE231F92D60029CADA /* URL2QR.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F1621BED231F92D60029CADA /* URL2QR.entitlements */; };
+		F1621BF1231F92D60029CADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621BF0231F92D60029CADA /* AppDelegate.m */; };
+		F1621BF4231F92D60029CADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1621BF2231F92D60029CADA /* Main.storyboard */; };
+		F1621BF7231F92D60029CADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621BF6231F92D60029CADA /* ViewController.m */; };
+		F1621BF9231F92D70029CADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1621BF8231F92D70029CADA /* Assets.xcassets */; };
+		F1621BFC231F92D70029CADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621BFB231F92D70029CADA /* main.m */; };
+		F1621C02231F92D70029CADA /* URL2QR Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1621C01231F92D70029CADA /* URL2QR Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1621C07231F92D70029CADA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1621C06231F92D70029CADA /* Cocoa.framework */; };
+		F1621C0B231F92D70029CADA /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621C0A231F92D70029CADA /* SafariExtensionHandler.m */; };
+		F1621C0E231F92D70029CADA /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621C0D231F92D70029CADA /* SafariExtensionViewController.m */; };
+		F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */; };
+		F1621C14231F92D70029CADA /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F1621C13231F92D70029CADA /* script.js */; };
+		F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1621C03231F92D70029CADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1621BE2231F92D50029CADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1621C00231F92D70029CADA;
+			remoteInfo = "URL2QR Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1621C1D231F92D70029CADA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1621C02231F92D70029CADA /* URL2QR Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1621BEA231F92D60029CADA /* URL2QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URL2QR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1621BED231F92D60029CADA /* URL2QR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URL2QR.entitlements; sourceTree = "<group>"; };
+		F1621BEF231F92D60029CADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1621BF0231F92D60029CADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1621BF3231F92D60029CADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1621BF5231F92D60029CADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1621BF6231F92D60029CADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1621BF8231F92D70029CADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1621BFA231F92D70029CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1621BFB231F92D70029CADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1621C01231F92D70029CADA /* URL2QR Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "URL2QR Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1621C06231F92D70029CADA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F1621C09231F92D70029CADA /* SafariExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionHandler.h; sourceTree = "<group>"; };
+		F1621C0A231F92D70029CADA /* SafariExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+		F1621C0C231F92D70029CADA /* SafariExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionViewController.h; sourceTree = "<group>"; };
+		F1621C0D231F92D70029CADA /* SafariExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionViewController.m; sourceTree = "<group>"; };
+		F1621C10231F92D70029CADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		F1621C12231F92D70029CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1621C13231F92D70029CADA /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URL2QR_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1621BE7231F92D60029CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1621BFE231F92D70029CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1621C07231F92D70029CADA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1621BE1231F92D50029CADA = {
+			isa = PBXGroup;
+			children = (
+				F1621BEC231F92D60029CADA /* URL2QR */,
+				F1621C08231F92D70029CADA /* URL2QR Extension */,
+				F1621C05231F92D70029CADA /* Frameworks */,
+				F1621BEB231F92D60029CADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1621BEB231F92D60029CADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1621BEA231F92D60029CADA /* URL2QR.app */,
+				F1621C01231F92D70029CADA /* URL2QR Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1621BEC231F92D60029CADA /* URL2QR */ = {
+			isa = PBXGroup;
+			children = (
+				F1621BED231F92D60029CADA /* URL2QR.entitlements */,
+				F1621BEF231F92D60029CADA /* AppDelegate.h */,
+				F1621BF0231F92D60029CADA /* AppDelegate.m */,
+				F1621BF2231F92D60029CADA /* Main.storyboard */,
+				F1621BF5231F92D60029CADA /* ViewController.h */,
+				F1621BF6231F92D60029CADA /* ViewController.m */,
+				F1621BF8231F92D70029CADA /* Assets.xcassets */,
+				F1621BFA231F92D70029CADA /* Info.plist */,
+				F1621BFB231F92D70029CADA /* main.m */,
+			);
+			path = URL2QR;
+			sourceTree = "<group>";
+		};
+		F1621C05231F92D70029CADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1621C06231F92D70029CADA /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1621C08231F92D70029CADA /* URL2QR Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1621C09231F92D70029CADA /* SafariExtensionHandler.h */,
+				F1621C0A231F92D70029CADA /* SafariExtensionHandler.m */,
+				F1621C0C231F92D70029CADA /* SafariExtensionViewController.h */,
+				F1621C0D231F92D70029CADA /* SafariExtensionViewController.m */,
+				F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */,
+				F1621C12231F92D70029CADA /* Info.plist */,
+				F1621C13231F92D70029CADA /* script.js */,
+				F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */,
+				F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */,
+			);
+			path = "URL2QR Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1621BE9231F92D60029CADA /* URL2QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1621C1E231F92D70029CADA /* Build configuration list for PBXNativeTarget "URL2QR" */;
+			buildPhases = (
+				F1621BE6231F92D60029CADA /* Sources */,
+				F1621BE7231F92D60029CADA /* Frameworks */,
+				F1621BE8231F92D60029CADA /* Resources */,
+				F1621C1D231F92D70029CADA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1621C04231F92D70029CADA /* PBXTargetDependency */,
+			);
+			name = URL2QR;
+			productName = URL2QR;
+			productReference = F1621BEA231F92D60029CADA /* URL2QR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1621C00231F92D70029CADA /* URL2QR Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1621C1A231F92D70029CADA /* Build configuration list for PBXNativeTarget "URL2QR Extension" */;
+			buildPhases = (
+				F1621BFD231F92D70029CADA /* Sources */,
+				F1621BFE231F92D70029CADA /* Frameworks */,
+				F1621BFF231F92D70029CADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URL2QR Extension";
+			productName = "URL2QR Extension";
+			productReference = F1621C01231F92D70029CADA /* URL2QR Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1621BE2231F92D50029CADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = xxstudio;
+				TargetAttributes = {
+					F1621BE9231F92D60029CADA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F1621C00231F92D70029CADA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F1621BE5231F92D50029CADA /* Build configuration list for PBXProject "URL2QR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1621BE1231F92D50029CADA;
+			productRefGroup = F1621BEB231F92D60029CADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1621BE9231F92D60029CADA /* URL2QR */,
+				F1621C00231F92D70029CADA /* URL2QR Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1621BE8231F92D60029CADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1621BEE231F92D60029CADA /* URL2QR.entitlements in Resources */,
+				F1621BF9231F92D70029CADA /* Assets.xcassets in Resources */,
+				F1621BF4231F92D60029CADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1621BFF231F92D70029CADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */,
+				F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */,
+				F1621C14231F92D70029CADA /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1621BE6231F92D60029CADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1621BF7231F92D60029CADA /* ViewController.m in Sources */,
+				F1621BFC231F92D70029CADA /* main.m in Sources */,
+				F1621BF1231F92D60029CADA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1621BFD231F92D70029CADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1621C0E231F92D70029CADA /* SafariExtensionViewController.m in Sources */,
+				F1621C0B231F92D70029CADA /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1621C04231F92D70029CADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1621C00231F92D70029CADA /* URL2QR Extension */;
+			targetProxy = F1621C03231F92D70029CADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1621BF2231F92D60029CADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1621BF3231F92D60029CADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1621C10231F92D70029CADA /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1621C18231F92D70029CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1621C19231F92D70029CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1621C1B231F92D70029CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "URL2QR Extension/URL2QR_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URL2QR Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxstudio.URL2QR-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1621C1C231F92D70029CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "URL2QR Extension/URL2QR_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "URL2QR Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xxstudio.URL2QR-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1621C1F231F92D70029CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = URL2QR/URL2QR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = URL2QR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxstudio.URL2QR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1621C20231F92D70029CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = URL2QR/URL2QR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = URL2QR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxstudio.URL2QR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1621BE5231F92D50029CADA /* Build configuration list for PBXProject "URL2QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1621C18231F92D70029CADA /* Debug */,
+				F1621C19231F92D70029CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1621C1A231F92D70029CADA /* Build configuration list for PBXNativeTarget "URL2QR Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1621C1B231F92D70029CADA /* Debug */,
+				F1621C1C231F92D70029CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1621C1E231F92D70029CADA /* Build configuration list for PBXNativeTarget "URL2QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1621C1F231F92D70029CADA /* Debug */,
+				F1621C20231F92D70029CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1621BE2231F92D50029CADA /* Project object */;
+}
