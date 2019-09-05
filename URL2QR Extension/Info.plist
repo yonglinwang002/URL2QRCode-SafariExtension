@@ -42,16 +42,16 @@
 			<key>Identifier</key>
 			<string>URL2QRButton</string>
 			<key>Image</key>
-			<string>ToolbarItemIcon.pdf</string>
+			<string>icon_log.png</string>
 			<key>Label</key>
-			<string>QRButton</string>
+			<string>URL2QRCode</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.webkit.org</string>
-                <string>*.apple.com</string>
+				<string>*.apple.com</string>
 			</array>
 			<key>Level</key>
 			<string>All</string>
@@ -67,6 +67,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 xxstudio. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>This is a Safari Extension for convert URL to QRCode</string>
 </dict>
 </plist>

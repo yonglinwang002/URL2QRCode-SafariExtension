@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F137342123211DA600373DE4 /* icon_log.png in Resources */ = {isa = PBXBuildFile; fileRef = F137342023211DA600373DE4 /* icon_log.png */; };
 		F1621BEE231F92D60029CADA /* URL2QR.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F1621BED231F92D60029CADA /* URL2QR.entitlements */; };
 		F1621BF1231F92D60029CADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621BF0231F92D60029CADA /* AppDelegate.m */; };
 		F1621BF4231F92D60029CADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1621BF2231F92D60029CADA /* Main.storyboard */; };
@@ -19,8 +20,6 @@
 		F1621C0E231F92D70029CADA /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1621C0D231F92D70029CADA /* SafariExtensionViewController.m */; };
 		F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */; };
 		F1621C14231F92D70029CADA /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F1621C13231F92D70029CADA /* script.js */; };
-		F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */; };
-		F1FCAACD231FBEDC0063043C /* mt.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FCAACC231FBEDC0063043C /* mt.png */; };
 		F1FCAACF231FC72E0063043C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = F1FCAACE231FC72E0063043C /* style.css */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F137342023211DA600373DE4 /* icon_log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_log.png; sourceTree = "<group>"; };
 		F1621BEA231F92D60029CADA /* URL2QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URL2QR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1621BED231F92D60029CADA /* URL2QR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URL2QR.entitlements; sourceTree = "<group>"; };
 		F1621BEF231F92D60029CADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,9 +68,7 @@
 		F1621C10231F92D70029CADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		F1621C12231F92D70029CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1621C13231F92D70029CADA /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URL2QR_Extension.entitlements; sourceTree = "<group>"; };
-		F1FCAACC231FBEDC0063043C /* mt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mt.png; sourceTree = "<group>"; };
 		F1FCAACE231FC72E0063043C /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,7 +137,7 @@
 		F1621C08231F92D70029CADA /* URL2QR Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F1FCAACC231FBEDC0063043C /* mt.png */,
+				F137342023211DA600373DE4 /* icon_log.png */,
 				F1621C09231F92D70029CADA /* SafariExtensionHandler.h */,
 				F1621C0A231F92D70029CADA /* SafariExtensionHandler.m */,
 				F1621C0C231F92D70029CADA /* SafariExtensionViewController.h */,
@@ -147,7 +145,6 @@
 				F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */,
 				F1621C12231F92D70029CADA /* Info.plist */,
 				F1621C13231F92D70029CADA /* script.js */,
-				F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */,
 				F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */,
 				F1FCAACE231FC72E0063043C /* style.css */,
 			);
@@ -244,10 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */,
+				F137342123211DA600373DE4 /* icon_log.png in Resources */,
 				F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */,
 				F1FCAACF231FC72E0063043C /* style.css in Resources */,
-				F1FCAACD231FBEDC0063043C /* mt.png in Resources */,
 				F1621C14231F92D70029CADA /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
