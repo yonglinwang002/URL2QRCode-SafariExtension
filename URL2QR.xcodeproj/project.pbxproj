@@ -20,6 +20,8 @@
 		F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1621C0F231F92D70029CADA /* SafariExtensionViewController.xib */; };
 		F1621C14231F92D70029CADA /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = F1621C13231F92D70029CADA /* script.js */; };
 		F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */; };
+		F1FCAACD231FBEDC0063043C /* mt.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FCAACC231FBEDC0063043C /* mt.png */; };
+		F1FCAACF231FC72E0063043C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = F1FCAACE231FC72E0063043C /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		F1621C13231F92D70029CADA /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = URL2QR_Extension.entitlements; sourceTree = "<group>"; };
+		F1FCAACC231FBEDC0063043C /* mt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mt.png; sourceTree = "<group>"; };
+		F1FCAACE231FC72E0063043C /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		F1621C08231F92D70029CADA /* URL2QR Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F1FCAACC231FBEDC0063043C /* mt.png */,
 				F1621C09231F92D70029CADA /* SafariExtensionHandler.h */,
 				F1621C0A231F92D70029CADA /* SafariExtensionHandler.m */,
 				F1621C0C231F92D70029CADA /* SafariExtensionViewController.h */,
@@ -144,6 +149,7 @@
 				F1621C13231F92D70029CADA /* script.js */,
 				F1621C15231F92D70029CADA /* ToolbarItemIcon.pdf */,
 				F1621C17231F92D70029CADA /* URL2QR_Extension.entitlements */,
+				F1FCAACE231FC72E0063043C /* style.css */,
 			);
 			path = "URL2QR Extension";
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 			files = (
 				F1621C16231F92D70029CADA /* ToolbarItemIcon.pdf in Resources */,
 				F1621C11231F92D70029CADA /* SafariExtensionViewController.xib in Resources */,
+				F1FCAACF231FC72E0063043C /* style.css in Resources */,
+				F1FCAACD231FBEDC0063043C /* mt.png in Resources */,
 				F1621C14231F92D70029CADA /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "URL2QR Extension/URL2QR_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSPD6W6XCH;
 				INFOPLIST_FILE = "URL2QR Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -418,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xxstudio.URL2QR-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -426,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "URL2QR Extension/URL2QR_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSPD6W6XCH;
 				INFOPLIST_FILE = "URL2QR Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xxstudio.URL2QR-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -444,8 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = URL2QR/URL2QR.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CSPD6W6XCH;
 				INFOPLIST_FILE = URL2QR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxstudio.URL2QR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -461,8 +478,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = URL2QR/URL2QR.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CSPD6W6XCH;
 				INFOPLIST_FILE = URL2QR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxstudio.URL2QR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
